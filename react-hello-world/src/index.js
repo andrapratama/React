@@ -15,6 +15,18 @@ ReactDOM.render(
 );
 */
 
+// stateless
+const HelloComponent = () => {
+  return <p>Hello Functional Component</p>
+}
+
+//statefull
+class StateFullComponent extends React.Component {
+  render() {
+    return <p>State Full  Component</p>
+  }
+}
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
