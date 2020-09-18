@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import HelloComponent from './component/HelloComponent';
+import StateFullComponent from './container/StateFullComponent';
 
 /*
 const HelloWorld = () => {
@@ -15,21 +17,9 @@ ReactDOM.render(
 );
 */
 
-// stateless
-const HelloComponent = () => {
-  return <p>Hello Functional Component</p>
-}
-
-//statefull
-class StateFullComponent extends React.Component {
-  render() {
-    return <p>State Full  Component</p>
-  }
-}
-
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <HelloComponent />
   </React.StrictMode>,
   document.getElementById('root')
 );
