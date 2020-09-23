@@ -1,0 +1,18 @@
+.wrapper-card{
+  background-color: rgb(229,239,245);
+  border-radius: 3px;
+  padding:10px;
+}
+
+.wrapper-card h6{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.wrapper-card h4{
+  color: rgb(34,44,77);
+}
+
+.pd-10{
+  padding:10px;
+}
